@@ -13,6 +13,12 @@ __pycache__/
 outputs/
 .artifact_build/
 
+# Private course materials and local transfer snapshots
+materials/
+documents/journal_snapshot_*.xlsx
+TRANSFER_MANIFEST.json
+START_ON_NEW_COMPUTER.txt
+
 # Credentials must stay local
 .env
 .env.*
