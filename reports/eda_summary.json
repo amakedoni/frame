@@ -1,0 +1,76 @@
+{
+  "generated_at_utc": "2026-10-21T12:00:57.602754+00:00",
+  "youtube": {
+    "raw_rows": 1956,
+    "class_counts_raw": {
+      "spam": 1005,
+      "ham": 951
+    },
+    "missing_content": 0,
+    "empty_content_after_strip": 0,
+    "unknown_labels": 0,
+    "duplicate_text_rows_after_strip": 197,
+    "conflicting_unique_texts": 0,
+    "unique_clean_rows": 1759,
+    "class_counts_clean": {
+      "ham": 919,
+      "spam": 840
+    },
+    "rows_with_url": 202,
+    "rows_with_html": 106,
+    "provisional_working_rows": 1500,
+    "seed": 42,
+    "median_characters_clean": {
+      "ham": 35.0,
+      "spam": 78.0
+    },
+    "source_files": 5
+  },
+  "rdd2022_us": {
+    "scope": "RDD2022 United States train; not the full multinational dataset",
+    "train_images": 4805,
+    "train_xml": 4805,
+    "official_test_images_unlabeled": 1200,
+    "readable_paired_train_images": 4805,
+    "image_or_pair_errors": 0,
+    "objects": 11014,
+    "class_counts_objects": {
+      "D00": 6750,
+      "D10": 3295,
+      "D20": 834,
+      "D40": 135
+    },
+    "class_counts_images": {
+      "D00": 3907,
+      "D10": 2342,
+      "D20": 739,
+      "D40": 116
+    },
+    "images_without_objects": 0,
+    "invalid_boxes": 0,
+    "unknown_class_objects": 0,
+    "duplicate_annotation_rows": 0,
+    "xml_image_size_mismatches": 0,
+    "duplicate_file_rows": 1,
+    "duplicate_pixel_rows": 1,
+    "exact_train_test_overlaps": 1,
+    "near_duplicate_candidate_pairs_dhash_le3": 28,
+    "width_counts": {
+      "640": 4805
+    },
+    "height_counts": {
+      "640": 4805
+    },
+    "eligible_unique_images": 4803,
+    "provisional_working_images": 3000,
+    "seed": 42,
+    "working_class_counts_objects": {
+      "D00": 4230,
+      "D10": 2072,
+      "D20": 498,
+      "D40": 87
+    },
+    "median_objects_per_image": 2.0
+  },
+  "elapsed_seconds": 51.13
+}

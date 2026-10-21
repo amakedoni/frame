@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://archive.ics.uci.edu/static/public/380/youtube%2Bspam%2Bcollection.zip",
+    "path": "data\\raw\\youtube_spam.zip",
+    "bytes": 163567,
+    "sha256": "bd6182891adb3cfc8334b82c062176dfbebc563bf0ba07e31c2645f916865a0a",
+    "checked_at": "2026-10-21T11:51:14.347422+00:00"
+  },
+  {
+    "url": "https://ndownloader.figshare.com/files/38030910",
+    "member": "RDD2022/United_States.zip",
+    "method": "validated HTTP range extraction from official Figshare archive",
+    "path": "data\\raw\\RDD2022_United_States.zip",
+    "bytes": 444335958,
+    "sha256": "597e8bcf1ffbe80d6c8295fbf99ebab5651c9e4efe961f9d38a9ed4ad10b957e",
+    "checked_at": "2026-10-21T11:51:30.974472+00:00"
+  }
+]

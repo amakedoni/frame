@@ -1,0 +1,21 @@
+# Source archives and local execution environment
+data/raw/
+data/processed/youtube_clean.csv
+.analysis_deps/
+.runtime/
+.venv/
+node_modules/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Earlier draft reports and internal rendering/build intermediates
+outputs/
+.artifact_build/
+
+# Credentials must stay local
+.env
+.env.*
+!.env.example
+token*.json
+credentials*.json
