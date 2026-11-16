@@ -65,7 +65,8 @@ def configure(annotator: str, batch_kind: str = 'baseline') -> None:
         'review': (ROOT / 'data/manual/local/review_draft', ' Review draft'),
     }[batch_kind]
     paths = {}
-    for dataset in ('youtube', 'rdd'):
+    datasets = [('rdd','RDD')] if batch_kind == 'review' else [('youtube','YouTube'),('rdd','RDD')]
+    for dataset, _ in datasets:
         if batch_kind in {'blind','review'}:
             kind = 'text' if dataset == 'youtube' else 'road'
             paths[dataset] = batch/f'{kind}_{batch_kind}_tasks.json'
@@ -76,7 +77,7 @@ def configure(annotator: str, batch_kind: str = 'baseline') -> None:
     for tasks in prepared.values():
         if not tasks or any(set(task) != ({'data','predictions'} if batch_kind == 'review' else {'data'}) for task in tasks):
             raise ValueError('Batch was not built for the selected mode')
-    for dataset, prefix in [('youtube', 'YouTube'), ('rdd', 'RDD')]:
+    for dataset, prefix in datasets:
         title = prefix + suffix
         matches = [p for p in existing if p['title'] == title]
         config = (ROOT / 'annotation/label_studio' / (dataset + '.xml')).read_text(encoding='utf8')
@@ -89,7 +90,7 @@ def configure(annotator: str, batch_kind: str = 'baseline') -> None:
                 'baseline':'Baseline pilot. Independent human annotation pending.',
                 'november':'External real data. Suitability and independent human annotation pending.',
                 'blind':'Same selected items for A and B. Do not open the draft before submitting blind answers.',
-                'review':'Draft hints for verification only; these are not independent human annotations.',
+                'review':'Published EPDD reference boxes. Use only after completing the independent annotation pass.',
             }[batch_kind]
             project = request('POST', '/api/projects/', {'title': title, 'description':description,
                 'show_collab_predictions': batch_kind == 'review',
