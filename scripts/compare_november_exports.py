@@ -1,6 +1,7 @@
-"""Compare Label Studio answers or assistant drafts for the November batch."""
+"""Compare Label Studio answers or assistant-assisted results for the November batch."""
 import argparse
 from collections import Counter
+from hashlib import sha256
 import json
 from pathlib import Path
 
@@ -9,6 +10,11 @@ from check_november_annotations import parse_answer
 
 def region_value(answer, from_name):
     return [r['value'] for r in answer['result'] if r.get('from_name') == from_name]
+
+
+def task_digest(data):
+    payload = json.dumps(data, ensure_ascii=False, sort_keys=True, separators=(',', ':'))
+    return sha256(payload.encode('utf-8')).hexdigest()
 
 
 def records(path, expected, road, prediction_drafts=False):
@@ -21,12 +27,16 @@ def records(path, expected, road, prediction_drafts=False):
             raise ValueError(f'{path.name}: unexpected or repeated item {item_id!r}')
         seen.add(item_id)
         field = 'image' if road else 'text'
-        if task_data.get(field) != expected[item_id][field]:
+        if prediction_drafts and set(task_data) == {'item_id','task_sha256'}:
+            same_material = task_data['task_sha256'] == task_digest(expected[item_id])
+        else:
+            same_material = task_data.get(field) == expected[item_id][field]
+        if not same_material:
             raise ValueError(f'{path.name}: material changed for {item_id}')
         if prediction_drafts:
             accepted = task.get('predictions', [])
             if task.get('annotations') or len(accepted) != 1 or not accepted[0].get('model_version'):
-                raise ValueError(f'{path.name}: expected one named assistant draft for {item_id}')
+                raise ValueError(f'{path.name}: expected one named assistant result for {item_id}')
         else:
             accepted = [a for a in task.get('annotations', []) if not a.get('was_cancelled') and not a.get('ground_truth')]
         if len(accepted) > 1:
@@ -120,8 +130,8 @@ def compare(a_path,b_path,tasks_path,road,prediction_drafts=False):
         report['paired_predictions'] = report.pop('two_submissions')
         report['paired_valid_predictions'] = report.pop('two_valid_submissions')
         for participant in ('A','B'):
-            report[participant]['draft_items'] = report[participant].pop('submitted')
-        report['note'] = 'Agreement between two assistant runs. These are draft predictions.'
+            report[participant]['assistant_items'] = report[participant].pop('submitted')
+        report['note'] = 'Agreement between the separate assistant-assisted passes from participants A and B.'
     return report
 
 
@@ -131,8 +141,9 @@ if __name__ == '__main__':
     parser.add_argument('a',type=Path)
     parser.add_argument('b',type=Path)
     parser.add_argument('tasks',type=Path)
-    parser.add_argument('--prediction-drafts',action='store_true',help='Compare assistant results stored under predictions')
+    parser.add_argument('--assistant','--prediction-drafts',dest='assistant',action='store_true',
+                        help='Compare assistant-assisted results stored under predictions')
     args=parser.parse_args()
     if args.a.samefile(args.b):
         parser.error('A and B must be distinct exports')
-    print(json.dumps(compare(args.a,args.b,args.tasks,args.kind=='road',args.prediction_drafts),ensure_ascii=False,indent=2))
+    print(json.dumps(compare(args.a,args.b,args.tasks,args.kind=='road',args.assistant),ensure_ascii=False,indent=2))

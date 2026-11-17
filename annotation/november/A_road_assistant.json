@@ -1,0 +1,4524 @@
+[
+  {
+    "data": {
+      "item_id": "IMG-M001",
+      "task_sha256": "7dae473aa1f65eeb3e88ecf5a5ea6dcf4ce100b3eeaf935bae991abcf11e4e30"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 601,
+            "original_height": 424,
+            "image_rotation": 0,
+            "value": {
+              "x": 74,
+              "y": 49,
+              "width": 26,
+              "height": 5.5,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M002",
+      "task_sha256": "cb92c97e9d75c77fe7ce95483b6c423702c64bf0cf87dc08d3de0d13d2b8b1ec"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 24,
+              "y": 38,
+              "width": 56,
+              "height": 62,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M003",
+      "task_sha256": "dddf6ccefa0c022fbf0a7ae79df3f515ee75d052262b0c388de2d1c7f58fcfc5"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1425,
+            "image_rotation": 0,
+            "value": {
+              "x": 23.32589,
+              "y": 30.95238,
+              "width": 36.99157,
+              "height": 5.35714,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1425,
+            "image_rotation": 0,
+            "value": {
+              "x": 55.13393,
+              "y": 37.69841,
+              "width": 8.48214,
+              "height": 48.4127,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1425,
+            "image_rotation": 0,
+            "value": {
+              "x": 42,
+              "y": 14,
+              "width": 11,
+              "height": 12,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M004",
+      "task_sha256": "96e9d74b2887ce645257a9f1e0d0ff95e97dfd2e9d4ba479b41229f1ac138165"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 876,
+            "image_rotation": 0,
+            "value": {
+              "x": 0.14075,
+              "y": 53.98458,
+              "width": 63.89845,
+              "height": 8.74036,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 876,
+            "image_rotation": 0,
+            "value": {
+              "x": 67.55784,
+              "y": 84.31877,
+              "width": 32.44216,
+              "height": 15.68123,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 876,
+            "image_rotation": 0,
+            "value": {
+              "x": 0.70373,
+              "y": 23.39332,
+              "width": 81.3509,
+              "height": 12.5964,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M005",
+      "task_sha256": "2181e56db8df9137af79fe6be2a13d078d39381df90a6ce287f9a9974a218ec9"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1055,
+            "image_rotation": 0,
+            "value": {
+              "x": 60.51437,
+              "y": 63.78387,
+              "width": 19.21332,
+              "height": 11.01304,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1055,
+            "image_rotation": 0,
+            "value": {
+              "x": 69.59153,
+              "y": 87.41602,
+              "width": 18.3056,
+              "height": 12.58398,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M006",
+      "task_sha256": "4aad66f49abdfd70319c9951aa21ac05fe9a840ca42c8758b80b1938360062a9"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 36,
+              "y": 24,
+              "width": 17,
+              "height": 34,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 41,
+              "y": 51,
+              "width": 22,
+              "height": 49,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M007",
+      "task_sha256": "0afed2dcbe50afa1e32dd910796f0823dd41d319d49ea00ef0a9e2d058db98cc"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1062,
+            "image_rotation": 0,
+            "value": {
+              "x": 39.61277,
+              "y": 50.51705,
+              "width": 30.84963,
+              "height": 11.16838,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1062,
+            "image_rotation": 0,
+            "value": {
+              "x": 78.97126,
+              "y": 57.20944,
+              "width": 18.00302,
+              "height": 18.91787,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1062,
+            "image_rotation": 0,
+            "value": {
+              "x": 1.81543,
+              "y": 86.61191,
+              "width": 22.23903,
+              "height": 13.38809,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1062,
+            "image_rotation": 0,
+            "value": {
+              "x": 26,
+              "y": 63,
+              "width": 41,
+              "height": 35,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-5",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1062,
+            "image_rotation": 0,
+            "value": {
+              "x": 67,
+              "y": 65,
+              "width": 21,
+              "height": 18,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M008",
+      "task_sha256": "7e15644e4c51d3effb691633b814df14295438bb032b6f3d194b7a1a80d7fb7f"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1076,
+            "image_rotation": 0,
+            "value": {
+              "x": 39,
+              "y": 60,
+              "width": 38,
+              "height": 40,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M009",
+      "task_sha256": "80da2d7c9a39e1813327e1990d1ea778f91b6071ea4bfe1a46fc74fe5b421c16"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1083,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 74,
+              "width": 35,
+              "height": 16,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1083,
+            "image_rotation": 0,
+            "value": {
+              "x": 18,
+              "y": 70,
+              "width": 37,
+              "height": 30,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M010",
+      "task_sha256": "11309346632ad9d7a0c662b0225c416adac77ff6b64fd2c44e8471a97c4a7b38"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1398,
+            "image_rotation": 0,
+            "value": {
+              "x": 43.32426,
+              "y": 39.22902,
+              "width": 38.56916,
+              "height": 60.77098,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1398,
+            "image_rotation": 0,
+            "value": {
+              "x": 25.0659,
+              "y": 39.61764,
+              "width": 13.68912,
+              "height": 9.52728,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1398,
+            "image_rotation": 0,
+            "value": {
+              "x": 68.45952,
+              "y": 32.71035,
+              "width": 9.3419,
+              "height": 5.47819,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M011",
+      "task_sha256": "56a359f40bfd44ace6f8a36638f65953939c4e4a963225627f30245dee66d626"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 33.89302,
+              "y": 64.18605,
+              "width": 66.10698,
+              "height": 35.81395,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 57.96455,
+              "y": 47.34736,
+              "width": 34.65173,
+              "height": 13.02326,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 0.72532,
+              "y": 60.29095,
+              "width": 47.50165,
+              "height": 13.02325,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 35.86003,
+              "y": 33.02326,
+              "width": 8.47325,
+              "height": 12.32558,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-5",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 73,
+              "y": 22,
+              "width": 27,
+              "height": 21,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-6",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 38,
+              "y": 44,
+              "width": 27,
+              "height": 19,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M013",
+      "task_sha256": "5bc21448b971f3e2798356c4e68768f4f6bc5d85ec331e5ce1235275e21ebe34"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1425,
+            "image_rotation": 0,
+            "value": {
+              "x": 61.93311,
+              "y": 51.02041,
+              "width": 31.77437,
+              "height": 34.69388,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M014",
+      "task_sha256": "3d3019e9d68feefd7f6020967ddcd0c338782b2aa4d894e92adc754e839577ab"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1191,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 31.46782,
+              "y": 35.9127,
+              "width": 8.95623,
+              "height": 18.25397,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1191,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 35.8249,
+              "y": 83.53175,
+              "width": 8.95623,
+              "height": 13.29365,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1191,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 63.66182,
+              "y": 66.07143,
+              "width": 35.09873,
+              "height": 9.72222,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1191,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 30,
+              "y": 51,
+              "width": 33,
+              "height": 33,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "В центре виден разрушенный край. Для D40 нужно подтвердить, что это углубление, а не повреждённая заплатка."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M015",
+      "task_sha256": "4f729c8b09d1f42bc3dba9549a1dc28cccab057466960c6e0252af35269a0622"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 39.83825,
+              "y": 35.60091,
+              "width": 13.9161,
+              "height": 10.43084,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 29.19652,
+              "y": 63.03855,
+              "width": 26.19501,
+              "height": 34.0136,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 39.29252,
+              "y": 46.71202,
+              "width": 8.73167,
+              "height": 12.69841,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 42.29403,
+              "y": 20.86168,
+              "width": 7.64021,
+              "height": 8.39002,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-5",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 51.57143,
+              "y": 28.57143,
+              "width": 15.28042,
+              "height": 5.21542,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M016",
+      "task_sha256": "adb9a41d5f4162094eb80e069f7425ff27fffcbc26534b5cecf841cd33e79082"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 81.15079,
+              "width": 40.58862,
+              "height": 13.73016,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 41,
+              "y": 37,
+              "width": 27,
+              "height": 46,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M017",
+      "task_sha256": "2b4450b17affbdcc8e9543369249db4aa799336e7406209543922bd141170618"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 19.10053,
+              "y": 68.93424,
+              "width": 20.73772,
+              "height": 31.06576,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 21,
+              "y": 61,
+              "width": 21,
+              "height": 4,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 41,
+              "y": 62,
+              "width": 7,
+              "height": 17,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M018",
+      "task_sha256": "a2ede7a8c540e5bcaf9e4d69d2f6d82b299e97d4755ff7a82a534ad1d6cb4fec"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 35.55741,
+              "y": 55.81395,
+              "width": 22.84753,
+              "height": 17.67442,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 36.01134,
+              "y": 16.27907,
+              "width": 18.76221,
+              "height": 39.30233,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 42.97151,
+              "y": 72.7907,
+              "width": 36.46526,
+              "height": 27.2093,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 5.06031,
+              "y": 70.81355,
+              "width": 31.92602,
+              "height": 9.76744,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-5",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 4.08532,
+              "y": 20.46512,
+              "width": 22.54491,
+              "height": 41.6279,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-6",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 54.77355,
+              "y": 18.13953,
+              "width": 32.68255,
+              "height": 8.3721,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-7",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 8.77587,
+              "y": 77.2093,
+              "width": 11.34811,
+              "height": 20.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M019",
+      "task_sha256": "3085b8c326250c6001bd2c5520a52f23bcd0343f38ccc3cece09f94c065bcfcb"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1048,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 44,
+              "width": 86,
+              "height": 54,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1048,
+            "image_rotation": 0,
+            "value": {
+              "x": 91,
+              "y": 73,
+              "width": 9,
+              "height": 27,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M020",
+      "task_sha256": "8157044691e11a8b7f8f0dc235d564b8668b1cf72a93ba710b60bc65136fdea5"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 31.06576,
+              "width": 71.49055,
+              "height": 68.93424,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 50.75283,
+              "y": 22.67574,
+              "width": 21.82918,
+              "height": 8.61678,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 57.57445,
+              "y": 78.68481,
+              "width": 16.64475,
+              "height": 21.31519,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M021",
+      "task_sha256": "ec2598c4c03fa83323ef991b576d6ada6662534aa2dab7a2e8a107ac42e9ece4"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1069,
+            "image_rotation": 0,
+            "value": {
+              "x": 17,
+              "y": 49,
+              "width": 62,
+              "height": 51,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1069,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 43,
+              "width": 45,
+              "height": 22,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M022",
+      "task_sha256": "47d9a64d0509036733f83798a789420d4f78fb0d7204c6cb12fb731a28589cde"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 56.57182,
+              "y": 19.53382,
+              "width": 17.28948,
+              "height": 79.56349,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 20.53307,
+              "y": 45.63492,
+              "width": 34.14219,
+              "height": 6.94445,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 38.67857,
+              "y": 53.37302,
+              "width": 15.51918,
+              "height": 11.70635,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 43.91339,
+              "y": 31.43115,
+              "width": 16.67058,
+              "height": 5.28318,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M023",
+      "task_sha256": "1f9f1555afe0519e6673e94e0136138982a23af2ad7b79d85e19f868dfb03a7f"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 46.62415,
+              "y": 43.96355,
+              "width": 32.19286,
+              "height": 15.94533,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 16.37396,
+              "y": 58.54214,
+              "width": 79.37205,
+              "height": 41.00228,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M024",
+      "task_sha256": "2de69b388d48ca2efedb9645ba61b151339e55600a8c6a6e2c606fac93688974"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 403,
+            "original_height": 369,
+            "image_rotation": 0,
+            "value": {
+              "x": 44,
+              "y": 25,
+              "width": 20,
+              "height": 75,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 403,
+            "original_height": 369,
+            "image_rotation": 0,
+            "value": {
+              "x": 31,
+              "y": 47.8,
+              "width": 50,
+              "height": 3.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M025",
+      "task_sha256": "edc96682a5108cd0041be2d1ad04f6752a56eb98e9a555802c98c8e708c278db"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1416,
+            "image_rotation": 0,
+            "value": {
+              "x": 0.53515,
+              "y": 55.3288,
+              "width": 41.47392,
+              "height": 33.10657,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1416,
+            "image_rotation": 0,
+            "value": {
+              "x": 49.76871,
+              "y": 39.00227,
+              "width": 22.20861,
+              "height": 13.37868,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1416,
+            "image_rotation": 0,
+            "value": {
+              "x": 41,
+              "y": 48,
+              "width": 27,
+              "height": 52,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M026",
+      "task_sha256": "974b742e73c43219bdf0f909e6afa9ea15385aeb106347628da8ac64ac8c4c5c"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 676,
+            "original_height": 455,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 13,
+              "width": 100,
+              "height": 55,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M028",
+      "task_sha256": "4ef9270a0d54bd289b938e7023470a53ded37240c477a16c8e7c7d2d221ca9b5"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 972,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 28.83458,
+              "y": 31.29252,
+              "width": 28.55463,
+              "height": 16.09977,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 972,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 26,
+              "y": 72,
+              "width": 21,
+              "height": 20,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 972,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 39,
+              "y": 76,
+              "width": 61,
+              "height": 24,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M030",
+      "task_sha256": "b90b7c219d6b023ba529b35a26e800019fb3767b29c0a90a2924088b6ae2015a"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1069,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 42,
+              "width": 44,
+              "height": 7,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1069,
+            "image_rotation": 0,
+            "value": {
+              "x": 43,
+              "y": 39,
+              "width": 31,
+              "height": 11,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1069,
+            "image_rotation": 0,
+            "value": {
+              "x": 73,
+              "y": 39,
+              "width": 27,
+              "height": 8,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M031",
+      "task_sha256": "240903fe53308e63c85d1bf444af13dde2fdf264cc61cf05a064b18759917503"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 38,
+              "y": 52,
+              "width": 17,
+              "height": 48,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M032",
+      "task_sha256": "9c2a0c78f3bfb28dad1357fc3f65a511156f1705af27acf297ce8204c1418fbc"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 22,
+              "y": 49,
+              "width": 23,
+              "height": 42,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 66,
+              "y": 57,
+              "width": 20,
+              "height": 18,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M033",
+      "task_sha256": "105e6fa0f99c43c617c9beed066fa34ade711c977a6a3f5bbf38f28aaa8de1d1"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 641,
+            "image_rotation": 0,
+            "value": {
+              "x": 61.59505,
+              "y": 56.79152,
+              "width": 16.2285,
+              "height": 38.01515,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M034",
+      "task_sha256": "cbcc3c157c5636ce91e1dfd61c1756a7cb8721e573e92ba1bccf4909ca71d8ee"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 610,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 29.8893,
+              "width": 100.0,
+              "height": 70.1107,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M035",
+      "task_sha256": "ed92ab19bbbdadd885ef6d5632e6a03e3755d56fe77ce66c4d2c716dd1247215"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 19,
+              "y": 30,
+              "width": 44,
+              "height": 70,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 39,
+              "y": 43,
+              "width": 25,
+              "height": 57,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Видны две продольные трещины. По мелким тёмным пятнам невозможно подтвердить отдельные выбоины."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M036",
+      "task_sha256": "d1cf9dcff982776856a6593e2bf08ac29d2d1880590e1c22626002947d240ce4"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1055,
+            "image_rotation": 0,
+            "value": {
+              "x": 54.31165,
+              "y": 48.64094,
+              "width": 45.53706,
+              "height": 18.81394,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M037",
+      "task_sha256": "45a3a4b363892afe239ecafe4343410543fc9e2c00ec6bf0a17698d5a7c2b2aa"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1343,
+            "image_rotation": 0,
+            "value": {
+              "x": 33,
+              "y": 40,
+              "width": 33,
+              "height": 25,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M038",
+      "task_sha256": "16d828737ac2a4fb78bc321f6f8d3b6a94695e92e5eae73d9b3759d60cbd52df"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 5.18443,
+              "y": 57.59637,
+              "width": 37.65533,
+              "height": 8.16327,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 2.18292,
+              "y": 67.34694,
+              "width": 18.82766,
+              "height": 30.38549,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 44.20408,
+              "y": 69.61451,
+              "width": 10.096,
+              "height": 30.38549,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 9.82313,
+              "y": 46.71202,
+              "width": 8.18594,
+              "height": 12.2449,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-5",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 30.83371,
+              "y": 19.72789,
+              "width": 9.00454,
+              "height": 13.15193,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-6",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 40.38398,
+              "y": 27.43764,
+              "width": 24.83068,
+              "height": 41.72336,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M039",
+      "task_sha256": "b07a6102a3ed87aed56cd253340b071954320593e91f8dc388fe02bcbf3fd995"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 20.11801,
+              "y": 61.87932,
+              "width": 57.12526,
+              "height": 18.76648,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M040",
+      "task_sha256": "89596d5ca30e0aff18fe52fde3e22369b1e8464d55df74e823cd336ea0f8e9e6"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1062,
+            "image_rotation": 0,
+            "value": {
+              "x": 0.60514,
+              "y": 45.81314,
+              "width": 14.97731,
+              "height": 18.23409,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1062,
+            "image_rotation": 0,
+            "value": {
+              "x": 76.09682,
+              "y": 72.48049,
+              "width": 23.90318,
+              "height": 27.51951,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1062,
+            "image_rotation": 0,
+            "value": {
+              "x": 21.63389,
+              "y": 22.10883,
+              "width": 28.29047,
+              "height": 26.2115,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1062,
+            "image_rotation": 0,
+            "value": {
+              "x": 24,
+              "y": 36,
+              "width": 73,
+              "height": 64,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M041",
+      "task_sha256": "1644d84c73b9fb76a1d4b1e8f21b65380bfcc5188888d45f24b5c14862f5cbd5"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 49.54442,
+              "y": 38.95216,
+              "width": 17.76765,
+              "height": 26.87928,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 19.20639,
+              "y": 22.7086,
+              "width": 16.7426,
+              "height": 7.97266,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 0.0,
+              "y": 68.30532,
+              "width": 46.26414,
+              "height": 8.73716,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 32,
+              "y": 31,
+              "width": 11,
+              "height": 11,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-5",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 64,
+              "y": 91,
+              "width": 36,
+              "height": 9,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Вдоль шва видны раздельные выкрашивания. У среднего участка глубину нужно уточнить на более близком фото."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M042",
+      "task_sha256": "4781f855d0e8f5bff82f2dca8c901ef8f22fc88c82c4b6237cf310f2ffe1b1ef"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1471,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 50,
+              "width": 80,
+              "height": 50,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M043",
+      "task_sha256": "cfd21e1fd0a11ead34de36a202ffd86f0ee2c256e8bf2bc1efe1ef03b3da7c33"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 30,
+              "y": 18,
+              "width": 27,
+              "height": 67,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M044",
+      "task_sha256": "e31951e17c79dfc449db92cbd3e4caff56f47efecb36fa4e980bc65fdb47499c"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1055,
+            "image_rotation": 0,
+            "value": {
+              "x": 70.19667,
+              "y": 29.82699,
+              "width": 9.07716,
+              "height": 7.8009,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1055,
+            "image_rotation": 0,
+            "value": {
+              "x": 66.56581,
+              "y": 50.47644,
+              "width": 14.06959,
+              "height": 14.22518,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1055,
+            "image_rotation": 0,
+            "value": {
+              "x": 25,
+              "y": 53,
+              "width": 40,
+              "height": 47,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M046",
+      "task_sha256": "954db2fcd3d4efa33ad026570393f5bf78b38ea4bc1892948aa023825327db78"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1083,
+            "image_rotation": 0,
+            "value": {
+              "x": 38,
+              "y": 61,
+              "width": 58,
+              "height": 13,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1083,
+            "image_rotation": 0,
+            "value": {
+              "x": 69,
+              "y": 66,
+              "width": 10,
+              "height": 33,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1083,
+            "image_rotation": 0,
+            "value": {
+              "x": 13,
+              "y": 41,
+              "width": 25,
+              "height": 29,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M047",
+      "task_sha256": "e2747fd21391b43f916c7759636b1bde5089587084075e038fe54cd226533476"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1080,
+            "original_height": 594,
+            "image_rotation": 0,
+            "value": {
+              "x": 6.48276,
+              "y": 84.26332,
+              "width": 24.96552,
+              "height": 14.29467,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1080,
+            "original_height": 594,
+            "image_rotation": 0,
+            "value": {
+              "x": 30,
+              "y": 61,
+              "width": 59,
+              "height": 33,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M049",
+      "task_sha256": "8e046204b7f413bb107f0e4ab9426521e3f4798c90bd77ed5d31e40e8e558e1b"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 900,
+            "image_rotation": 0,
+            "value": {
+              "x": 32.5,
+              "y": 48,
+              "width": 8.0,
+              "height": 9.5,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 900,
+            "image_rotation": 0,
+            "value": {
+              "x": 37,
+              "y": 58,
+              "width": 9,
+              "height": 10,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 900,
+            "image_rotation": 0,
+            "value": {
+              "x": 50.5,
+              "y": 34.5,
+              "width": 26.0,
+              "height": 45.5,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 900,
+            "image_rotation": 0,
+            "value": {
+              "x": 72,
+              "y": 7,
+              "width": 9,
+              "height": 6,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Отмечены четыре вероятные выбоины с различимой кромкой. Вода скрывает их дно и часть границ."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M050",
+      "task_sha256": "82cccc4edc0552aa0db15611113bd598c580fa265907baca3fc3d871a9033a2a"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 18.12996,
+              "y": 84.92063,
+              "width": 25.62368,
+              "height": 15.07937,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 43.27017,
+              "y": 86.70635,
+              "width": 7.25199,
+              "height": 13.25397,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 27,
+              "y": 59,
+              "width": 32,
+              "height": 28,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 72,
+              "width": 33,
+              "height": 4,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-5",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 3,
+              "y": 57,
+              "width": 19,
+              "height": 9,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M051",
+      "task_sha256": "9db3018331a88462d3d1f69eac46470a4b632864b6bcd40ec6aceab81a128aca"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 720,
+            "original_height": 1280,
+            "image_rotation": 0,
+            "value": {
+              "x": 17,
+              "y": 59.55,
+              "width": 23,
+              "height": 1.0,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "На дальнем поперечном шве виден неровный скол. Класс нужно уточнить по снимку крупнее."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M052",
+      "task_sha256": "90b368d1567e5d3f37ce89d5fd8cd9fc2a0516049f3f53acb1db1c37da10d92a"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 712,
+            "original_height": 485,
+            "image_rotation": 0,
+            "value": {
+              "x": 26.35517,
+              "y": 52.38095,
+              "width": 51.08848,
+              "height": 24.8047,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 712,
+            "original_height": 485,
+            "image_rotation": 0,
+            "value": {
+              "x": 5.00072,
+              "y": 69.04762,
+              "width": 52.57519,
+              "height": 30.95238,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 712,
+            "original_height": 485,
+            "image_rotation": 0,
+            "value": {
+              "x": 59,
+              "y": 38,
+              "width": 24,
+              "height": 13,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M053",
+      "task_sha256": "6897128d4aaa8206545e2d73c1f35c0deac5507abe0c02e67b610a2555acfcb4"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 42,
+              "width": 100,
+              "height": 19,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 80,
+              "width": 62,
+              "height": 20,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 54,
+              "width": 100,
+              "height": 23,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M054",
+      "task_sha256": "c63ebfbbc2831c9a53b5af87fa2c2793f26c0b02d8c0a0f84d2fbf57965e1a5b"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1076,
+            "image_rotation": 0,
+            "value": {
+              "x": 75.94218,
+              "y": 75.73696,
+              "width": 9.30215,
+              "height": 7.70975,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1076,
+            "image_rotation": 0,
+            "value": {
+              "x": 88.14172,
+              "y": 76.41723,
+              "width": 6.25227,
+              "height": 8.39003,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1076,
+            "image_rotation": 0,
+            "value": {
+              "x": 49.56066,
+              "y": 87.30159,
+              "width": 14.33446,
+              "height": 12.69841,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1076,
+            "image_rotation": 0,
+            "value": {
+              "x": 65.87755,
+              "y": 88.88889,
+              "width": 20.89172,
+              "height": 11.11111,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M055",
+      "task_sha256": "3a85da5b6e548af66a228c87a41b78da99686f8945687cb3ddb184300f841714"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 960,
+            "original_height": 1280,
+            "image_rotation": 0,
+            "value": {
+              "x": 1.5186,
+              "y": 8.42825,
+              "width": 93.84966,
+              "height": 89.52164,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M056",
+      "task_sha256": "e9ebc9f2c2ffb44dbe4415f6c10ee3fb6bc5d59a51a1d11cb95be65dd7a779f1"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 584,
+            "image_rotation": 0,
+            "value": {
+              "x": 53,
+              "y": 81,
+              "width": 19,
+              "height": 16,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "В центре справа видна продольная линия, но по общему плану трудно отделить трещину от края старого ремонта."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M057",
+      "task_sha256": "1f50f8d3d15100f8cdcd90f0ef680a995e0cbc7cebf81587cfbc529eccba2c82"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1416,
+            "image_rotation": 0,
+            "value": {
+              "x": 35.74943,
+              "y": 63.09795,
+              "width": 39.24374,
+              "height": 36.90205,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1416,
+            "image_rotation": 0,
+            "value": {
+              "x": 62.35991,
+              "y": 34.62415,
+              "width": 15.32118,
+              "height": 25.96811,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1416,
+            "image_rotation": 0,
+            "value": {
+              "x": 11,
+              "y": 38,
+              "width": 41,
+              "height": 44,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M058",
+      "task_sha256": "6db368db2bd16980764bffb49da2c4874538ce023ef7e9504cf5ae4613fae6e5"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 28.74855,
+              "y": 66.74419,
+              "width": 46.14898,
+              "height": 16.97674,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 47.96468,
+              "y": 46.51163,
+              "width": 45.99767,
+              "height": 21.16279,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 1.51308,
+              "y": 49.30233,
+              "width": 28.29462,
+              "height": 14.18604,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M059",
+      "task_sha256": "32e00fb25c66f3d89a7b6086f470aa2a67204d32457d36cb8344a006684dd536"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 49.65769,
+              "width": 31.93683,
+              "height": 25.08498,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 19,
+              "y": 44,
+              "width": 50,
+              "height": 56,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Две продольные трещины видны. По мелким пятнам выше подтвердить выбоины не удаётся."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M060",
+      "task_sha256": "aca4ed78a7c334789d99ce2dc0d5de169db030a5e46be29f84e33a04241a3045"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1490,
+            "image_rotation": 0,
+            "value": {
+              "x": 53.20845,
+              "y": 25.8007,
+              "width": 24.19892,
+              "height": 12.79703,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1490,
+            "image_rotation": 0,
+            "value": {
+              "x": 24.78202,
+              "y": 61.98929,
+              "width": 20.40872,
+              "height": 4.22655,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1490,
+            "image_rotation": 0,
+            "value": {
+              "x": 39,
+              "y": 21,
+              "width": 20,
+              "height": 29,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1490,
+            "image_rotation": 0,
+            "value": {
+              "x": 38,
+              "y": 47,
+              "width": 34,
+              "height": 50,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M061",
+      "task_sha256": "93f217ff0c1f6336fa223ccae4876fd6f681c86a3d7ece4be5076a0365dc6013"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 342,
+            "original_height": 316,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 46,
+              "width": 43.5,
+              "height": 6,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 342,
+            "original_height": 316,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 56,
+              "width": 40,
+              "height": 35,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Перед конусом видны поперечная трещина и ветвление. Сетка отмечена предварительно, дальний участок плохо различим."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M062",
+      "task_sha256": "84780a9dba3210a5f7d8019e09238e44171ab6e506481a5d565d7945ad352c52"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 37.00456,
+              "y": 56.26424,
+              "width": 38.10098,
+              "height": 43.73576,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 37.81245,
+              "y": 36.6263,
+              "width": 11.98501,
+              "height": 14.62655,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 48,
+              "y": 42,
+              "width": 23,
+              "height": 12,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box-4",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 12,
+              "y": 72,
+              "width": 32,
+              "height": 5,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M063",
+      "task_sha256": "c94f15ef6f60ccbd85b0a1e552d67488cd936022dbfdc85c021c6e37792063f4"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 3024,
+            "original_height": 4032,
+            "image_rotation": 0,
+            "value": {
+              "x": 38.57251,
+              "y": 75.62642,
+              "width": 21.26044,
+              "height": 12.30069,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 3024,
+            "original_height": 4032,
+            "image_rotation": 0,
+            "value": {
+              "x": 22.47532,
+              "y": 78.13212,
+              "width": 15.48975,
+              "height": 17.76765,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "У кромки лужи видны разрушение и сетка трещин, но вода скрывает часть разрушения и его глубину."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M064",
+      "task_sha256": "dea2d5d4b52ac918018b8372266e53b631e554b26e6fdb172643297d0ec91e42"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1048,
+            "image_rotation": 0,
+            "value": {
+              "x": 15.73374,
+              "y": 74.37263,
+              "width": 18.30559,
+              "height": 10.85563,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box-2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1048,
+            "image_rotation": 0,
+            "value": {
+              "x": 22.69289,
+              "y": 47.81097,
+              "width": 77.30711,
+              "height": 21.03935,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box-3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1048,
+            "image_rotation": 0,
+            "value": {
+              "x": 35.40091,
+              "y": 73.91068,
+              "width": 64.59909,
+              "height": 19.65353,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M066",
+      "task_sha256": "ffe5ac2386273575fcc461a23435dfe93c6a790388c9cbb45a2e6bc895bbd41d"
+    },
+    "predictions": [
+      {
+        "model_version": "Визуальная проверка ассистента по EPDD",
+        "result": [
+          {
+            "id": "box-1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1083,
+            "image_rotation": 0,
+            "value": {
+              "x": 8.28827,
+              "y": 79.36508,
+              "width": 35.91581,
+              "height": 20.63492,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "status",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
