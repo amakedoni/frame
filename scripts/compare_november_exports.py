@@ -1,4 +1,4 @@
-"""Validate independent Label Studio JSON exports for the selected November batch."""
+"""Compare Label Studio answers or assistant drafts for the November batch."""
 import argparse
 from collections import Counter
 import json
@@ -11,7 +11,7 @@ def region_value(answer, from_name):
     return [r['value'] for r in answer['result'] if r.get('from_name') == from_name]
 
 
-def records(path, expected, road):
+def records(path, expected, road, prediction_drafts=False):
     raw = json.loads(path.read_text(encoding='utf-8-sig'))
     items, seen = {}, set()
     for task in raw:
@@ -23,7 +23,12 @@ def records(path, expected, road):
         field = 'image' if road else 'text'
         if task_data.get(field) != expected[item_id][field]:
             raise ValueError(f'{path.name}: material changed for {item_id}')
-        accepted = [a for a in task.get('annotations', []) if not a.get('was_cancelled') and not a.get('ground_truth')]
+        if prediction_drafts:
+            accepted = task.get('predictions', [])
+            if task.get('annotations') or len(accepted) != 1 or not accepted[0].get('model_version'):
+                raise ValueError(f'{path.name}: expected one named assistant draft for {item_id}')
+        else:
+            accepted = [a for a in task.get('annotations', []) if not a.get('was_cancelled') and not a.get('ground_truth')]
         if len(accepted) > 1:
             raise ValueError(f'{path.name}: choose a single original answer for {item_id}')
         if not accepted:
@@ -63,14 +68,14 @@ def match_boxes(a, b):
     return [(i,j,score) for j,(i,score) in sorted(matched.items())]
 
 
-def compare(a_path,b_path,tasks_path,road):
+def compare(a_path,b_path,tasks_path,road,prediction_drafts=False):
     tasks=json.loads(tasks_path.read_text(encoding='utf-8-sig'))
     if any(set(task)!={'data'} for task in tasks):
         raise ValueError('Use the blind task manifest as the reference')
     expected={task['data']['item_id']:task['data'] for task in tasks}
     if len(expected)!=len(tasks):
         raise ValueError('Duplicate IDs in the task manifest')
-    a,b=(records(path,expected,road) for path in (a_path,b_path))
+    a,b=(records(path,expected,road,prediction_drafts) for path in (a_path,b_path))
     common=sorted(a.keys()&b.keys())
     valid=[item for item in common if a[item]['valid'] and b[item]['valid']]
     report = {'expected_items':len(expected),'two_submissions':len(common),'two_valid_submissions':len(valid),
@@ -111,6 +116,12 @@ def compare(a_path,b_path,tasks_path,road):
         report['agreement']={'fraction':agreement,'cohen_kappa':kappa,
                              'counts':{f'{x}/{y}':pairs[x,y] for x in ('ham','spam') for y in ('ham','spam')}}
     report['note']='Metrics describe the submitted pair, not adjudicated truth. Independence must be confirmed by the participants.'
+    if prediction_drafts:
+        report['paired_predictions'] = report.pop('two_submissions')
+        report['paired_valid_predictions'] = report.pop('two_valid_submissions')
+        for participant in ('A','B'):
+            report[participant]['draft_items'] = report[participant].pop('submitted')
+        report['note'] = 'Agreement between two assistant runs. These are draft predictions.'
     return report
 
 
@@ -120,7 +131,8 @@ if __name__ == '__main__':
     parser.add_argument('a',type=Path)
     parser.add_argument('b',type=Path)
     parser.add_argument('tasks',type=Path)
+    parser.add_argument('--prediction-drafts',action='store_true',help='Compare assistant results stored under predictions')
     args=parser.parse_args()
     if args.a.samefile(args.b):
         parser.error('A and B must be distinct exports')
-    print(json.dumps(compare(args.a,args.b,args.tasks,args.kind=='road'),ensure_ascii=False,indent=2))
+    print(json.dumps(compare(args.a,args.b,args.tasks,args.kind=='road',args.prediction_drafts),ensure_ascii=False,indent=2))
