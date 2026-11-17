@@ -1,0 +1,3603 @@
+[
+  {
+    "data": {
+      "item_id": "IMG-M001",
+      "task_sha256": "7dae473aa1f65eeb3e88ecf5a5ea6dcf4ce100b3eeaf935bae991abcf11e4e30"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 601,
+            "original_height": 424,
+            "image_rotation": 0,
+            "value": {
+              "x": 75,
+              "y": 49,
+              "width": 25,
+              "height": 5,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Тонкая поперечная линия на правой части покрытия может быть швом. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M002",
+      "task_sha256": "cb92c97e9d75c77fe7ce95483b6c423702c64bf0cf87dc08d3de0d13d2b8b1ec"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 26,
+              "y": 40,
+              "width": 51,
+              "height": 60,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Тонкие ветви на краях сети слабо различимы; граница приблизительная. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M003",
+      "task_sha256": "dddf6ccefa0c022fbf0a7ae79df3f515ee75d052262b0c388de2d1c7f58fcfc5"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1425,
+            "image_rotation": 0,
+            "value": {
+              "x": 44,
+              "y": 43,
+              "width": 24,
+              "height": 52,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1425,
+            "image_rotation": 0,
+            "value": {
+              "x": 25,
+              "y": 30,
+              "width": 42,
+              "height": 13,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "box3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1425,
+            "image_rotation": 0,
+            "value": {
+              "x": 44,
+              "y": 15,
+              "width": 9,
+              "height": 7,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "На пересечении тонких трещин неясно, считать ли их одной разветвлённой областью; отдельная верхняя ветвь слабо заметна. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M004",
+      "task_sha256": "96e9d74b2887ce645257a9f1e0d0ff95e97dfd2e9d4ba479b41229f1ac138165"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 876,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 27,
+              "width": 88,
+              "height": 9,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 876,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 48,
+              "width": 100,
+              "height": 16,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 876,
+            "image_rotation": 0,
+            "value": {
+              "x": 66,
+              "y": 85,
+              "width": 34,
+              "height": 15,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Направление дороги определяется по жёлтой линии; слабые трещины у краёв плохо видны. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M005",
+      "task_sha256": "2181e56db8df9137af79fe6be2a13d078d39381df90a6ce287f9a9974a218ec9"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1055,
+            "image_rotation": 0,
+            "value": {
+              "x": 61,
+              "y": 65,
+              "width": 18,
+              "height": 7,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Небольшой тёмный участок может быть неглубокой выбоиной или заплатой. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M006",
+      "task_sha256": "4aad66f49abdfd70319c9951aa21ac05fe9a840ca42c8758b80b1938360062a9"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 37,
+              "y": 24,
+              "width": 40,
+              "height": 76,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Трещины примыкают к заплате; границы сети и ремонта неоднозначны. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M007",
+      "task_sha256": "0afed2dcbe50afa1e32dd910796f0823dd41d319d49ea00ef0a9e2d058db98cc"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1062,
+            "image_rotation": 0,
+            "value": {
+              "x": 22,
+              "y": 61,
+              "width": 53,
+              "height": 39,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1062,
+            "image_rotation": 0,
+            "value": {
+              "x": 41,
+              "y": 42,
+              "width": 29,
+              "height": 17,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Разрушенные светлые участки могут включать заплаты; границы потери материала не вполне ясны. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M008",
+      "task_sha256": "7e15644e4c51d3effb691633b814df14295438bb032b6f3d194b7a1a80d7fb7f"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1076,
+            "image_rotation": 0,
+            "value": {
+              "x": 47,
+              "y": 68,
+              "width": 36,
+              "height": 32,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Мелкие трещины слабоконтрастны; связь ветвей сети сомнительна. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M009",
+      "task_sha256": "80da2d7c9a39e1813327e1990d1ea778f91b6071ea4bfe1a46fc74fe5b421c16"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1083,
+            "image_rotation": 0,
+            "value": {
+              "x": 13,
+              "y": 71,
+              "width": 44,
+              "height": 29,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1083,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 69,
+              "width": 29,
+              "height": 15,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M010",
+      "task_sha256": "11309346632ad9d7a0c662b0225c416adac77ff6b64fd2c44e8471a97c4a7b38"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1398,
+            "image_rotation": 0,
+            "value": {
+              "x": 34,
+              "y": 39,
+              "width": 48,
+              "height": 61,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Разветвления рядом с осевой разметкой частично сливаются с ней. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M011",
+      "task_sha256": "56a359f40bfd44ace6f8a36638f65953939c4e4a963225627f30245dee66d626"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 42,
+              "width": 100,
+              "height": 58,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Сеть обрезана краями кадра; не все ветви одинаково отчётливы. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M013",
+      "task_sha256": "5bc21448b971f3e2798356c4e68768f4f6bc5d85ec331e5ce1235275e21ebe34"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1425,
+            "image_rotation": 0,
+            "value": {
+              "x": 59,
+              "y": 45,
+              "width": 35,
+              "height": 39,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Тонкие трещины справа частично сливаются с текстурой покрытия. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M014",
+      "task_sha256": "3d3019e9d68feefd7f6020967ddcd0c338782b2aa4d894e92adc754e839577ab"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1191,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 30,
+              "y": 57,
+              "width": 32,
+              "height": 24,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Похоже на локальное разрушение, но необходимо отличить выбоину от заплаты. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M015",
+      "task_sha256": "4f729c8b09d1f42bc3dba9549a1dc28cccab057466960c6e0252af35269a0622"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 25,
+              "y": 18,
+              "width": 40,
+              "height": 82,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Неясно, вся ли цепь трещин является одной связанной сетью. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M016",
+      "task_sha256": "adb9a41d5f4162094eb80e069f7425ff27fffcbc26534b5cecf841cd33e79082"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 36,
+              "width": 84,
+              "height": 60,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Тонкие ветви сходятся под перспективой; связь отдельных участков сети требует проверки. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M017",
+      "task_sha256": "2b4450b17affbdcc8e9543369249db4aa799336e7406209543922bd141170618"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 22,
+              "y": 61,
+              "width": 41,
+              "height": 39,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Тонкая извилистая линия частично теряется на текстуре покрытия; не перепутать с диагональной тенью. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M018",
+      "task_sha256": "a2ede7a8c540e5bcaf9e4d69d2f6d82b299e97d4755ff7a82a534ad1d6cb4fec"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 38,
+              "y": 56,
+              "width": 21,
+              "height": 16,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 8,
+              "width": 81,
+              "height": 92,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Трещины расходятся от выбоины; границы общей сети и отдельные ветви требуют проверки. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M019",
+      "task_sha256": "3085b8c326250c6001bd2c5520a52f23bcd0343f38ccc3cece09f94c065bcfcb"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1048,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 44,
+              "width": 77,
+              "height": 48,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Светлые участки внутри сети могут включать потерю материала; граница выбоины неотчётлива. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M020",
+      "task_sha256": "8157044691e11a8b7f8f0dc235d564b8668b1cf72a93ba710b60bc65136fdea5"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 29,
+              "width": 76,
+              "height": 71,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Сетка обрезана краем кадра и местами переходит в отдельные трещины. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M021",
+      "task_sha256": "ec2598c4c03fa83323ef991b576d6ada6662534aa2dab7a2e8a107ac42e9ece4"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1069,
+            "image_rotation": 0,
+            "value": {
+              "x": 15,
+              "y": 46,
+              "width": 63,
+              "height": 54,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Разветвления вдоль дороги могут представлять несколько отдельных дефектов. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M022",
+      "task_sha256": "47d9a64d0509036733f83798a789420d4f78fb0d7204c6cb12fb731a28589cde"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 19,
+              "y": 29,
+              "width": 62,
+              "height": 67,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Линейные ветви с редкими ячейками: граница между сетью и отдельными трещинами спорна. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M023",
+      "task_sha256": "1f9f1555afe0519e6673e94e0136138982a23af2ad7b79d85e19f868dfb03a7f"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 47,
+              "y": 47,
+              "width": 29,
+              "height": 13,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 12,
+              "y": 54,
+              "width": 70,
+              "height": 46,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Сеть трещин примыкает к разрушенному участку; границы пересекающихся рамок приблизительны. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M024",
+      "task_sha256": "2de69b388d48ca2efedb9645ba61b151339e55600a8c6a6e2c606fac93688974"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 403,
+            "original_height": 369,
+            "image_rotation": 0,
+            "value": {
+              "x": 43,
+              "y": 26,
+              "width": 18,
+              "height": 74,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M025",
+      "task_sha256": "edc96682a5108cd0041be2d1ad04f6752a56eb98e9a555802c98c8e708c278db"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1416,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 45,
+              "width": 43,
+              "height": 47,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1416,
+            "image_rotation": 0,
+            "value": {
+              "x": 45,
+              "y": 38,
+              "width": 32,
+              "height": 62,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "На левой половине мелкие ветви частично неразличимы; связь сети неочевидна. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M026",
+      "task_sha256": "974b742e73c43219bdf0f909e6afa9ea15385aeb106347628da8ac64ac8c4c5c"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 676,
+            "original_height": 455,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 18,
+              "width": 97,
+              "height": 43,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Тонкая сетка на неоднородной поверхности сливается с продольной ремонтной полосой. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M028",
+      "task_sha256": "4ef9270a0d54bd289b938e7023470a53ded37240c477a16c8e7c7d2d221ca9b5"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 972,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 27,
+              "y": 73,
+              "width": 18,
+              "height": 18,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 972,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 41,
+              "y": 82,
+              "width": 51,
+              "height": 18,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Нижняя выбоина обрезана краем кадра; граница между соседними разрушениями спорна. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M030",
+      "task_sha256": "b90b7c219d6b023ba529b35a26e800019fb3767b29c0a90a2924088b6ae2015a"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1069,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 43,
+              "width": 100,
+              "height": 13,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Повреждение вдоль дороги частично заделано; различить разрушение и ремонт трудно. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M031",
+      "task_sha256": "240903fe53308e63c85d1bf444af13dde2fdf264cc61cf05a064b18759917503"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 42,
+              "y": 51,
+              "width": 8,
+              "height": 49,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D10"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Тёмная горизонтальная линия выглядит заделанным швом и не размечена; пересекающая её тонкая трещина сомнительна. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M032",
+      "task_sha256": "9c2a0c78f3bfb28dad1357fc3f65a511156f1705af27acf297ce8204c1418fbc"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 12,
+              "y": 46,
+              "width": 50,
+              "height": 46,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Связность тонких трещин и граница сетки на заплатанном покрытии неясны. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M033",
+      "task_sha256": "105e6fa0f99c43c617c9beed066fa34ade711c977a6a3f5bbf38f28aaa8de1d1"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 641,
+            "image_rotation": 0,
+            "value": {
+              "x": 60,
+              "y": 56,
+              "width": 20,
+              "height": 44,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Мелкие следы в нижней части кадра трудно уверенно отличить от текстуры и ремонта. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M034",
+      "task_sha256": "cbcc3c157c5636ce91e1dfd61c1756a7cb8721e573e92ba1bccf4909ca71d8ee"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 610,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 43,
+              "width": 100,
+              "height": 57,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Обширная сеть обрезана краями; отдельные мелкие разрушения могут быть неразличимы. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M035",
+      "task_sha256": "ed92ab19bbbdadd885ef6d5632e6a03e3755d56fe77ce66c4d2c716dd1247215"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 37,
+              "y": 46,
+              "width": 20,
+              "height": 12,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1453,
+            "image_rotation": 0,
+            "value": {
+              "x": 43,
+              "y": 60,
+              "width": 18,
+              "height": 40,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Длинная чёрная линия выглядит заделанной и не размечена; соседние тонкие трещины слабо различимы. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M036",
+      "task_sha256": "d1cf9dcff982776856a6593e2bf08ac29d2d1880590e1c22626002947d240ce4"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1055,
+            "image_rotation": 0,
+            "value": {
+              "x": 56,
+              "y": 49,
+              "width": 42,
+              "height": 17,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M037",
+      "task_sha256": "45a3a4b363892afe239ecafe4343410543fc9e2c00ec6bf0a17698d5a7c2b2aa"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1343,
+            "image_rotation": 0,
+            "value": {
+              "x": 36,
+              "y": 41,
+              "width": 31,
+              "height": 30,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M038",
+      "task_sha256": "16d828737ac2a4fb78bc321f6f8d3b6a94695e92e5eae73d9b3759d60cbd52df"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 12,
+              "width": 70,
+              "height": 88,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Сеть и ответвления тонки и частично выходят за кадр; разделение участков требует проверки. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M039",
+      "task_sha256": "b07a6102a3ed87aed56cd253340b071954320593e91f8dc388fe02bcbf3fd995"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 20,
+              "y": 59,
+              "width": 56,
+              "height": 18,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Возможны отдельные ветви и ремонт; направление вдоль дороги определено по разметке. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M040",
+      "task_sha256": "89596d5ca30e0aff18fe52fde3e22369b1e8464d55df74e823cd336ea0f8e9e6"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1062,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 35,
+              "width": 100,
+              "height": 65,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Разреженные ячейки пересекают кадр; следует проверить связность и разделение дефектов. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M041",
+      "task_sha256": "1644d84c73b9fb76a1d4b1e8f21b65380bfcc5188888d45f24b5c14862f5cbd5"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 50,
+              "y": 46,
+              "width": 17,
+              "height": 14,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 22,
+              "y": 23,
+              "width": 6,
+              "height": 5,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Повреждения возле мостового шва; меньший тёмный участок может быть ремонтом. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M042",
+      "task_sha256": "4781f855d0e8f5bff82f2dca8c901ef8f22fc88c82c4b6237cf310f2ffe1b1ef"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1471,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 52,
+              "width": 75,
+              "height": 48,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Мелкие ветви сетки низкоконтрастны; неясно, все ли связаны. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M043",
+      "task_sha256": "cfd21e1fd0a11ead34de36a202ffd86f0ee2c256e8bf2bc1efe1ef03b3da7c33"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 29,
+              "y": 26,
+              "width": 28,
+              "height": 62,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M044",
+      "task_sha256": "e31951e17c79dfc449db92cbd3e4caff56f47efecb36fa4e980bc65fdb47499c"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1055,
+            "image_rotation": 0,
+            "value": {
+              "x": 70,
+              "y": 33,
+              "width": 8,
+              "height": 4,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1055,
+            "image_rotation": 0,
+            "value": {
+              "x": 26,
+              "y": 55,
+              "width": 38,
+              "height": 45,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1055,
+            "image_rotation": 0,
+            "value": {
+              "x": 63,
+              "y": 80,
+              "width": 22,
+              "height": 20,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Тонкая трещина справа внизу плохо различима и частично обрезана краем кадра. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M046",
+      "task_sha256": "954db2fcd3d4efa33ad026570393f5bf78b38ea4bc1892948aa023825327db78"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1083,
+            "image_rotation": 0,
+            "value": {
+              "x": 10,
+              "y": 42,
+              "width": 90,
+              "height": 58,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Слабые разветвления могут быть отдельными трещинами, а не одной сеткой. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M047",
+      "task_sha256": "e2747fd21391b43f916c7759636b1bde5089587084075e038fe54cd226533476"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1080,
+            "original_height": 594,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 55,
+              "width": 87,
+              "height": 45,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Повреждение сильно вытянуто и частично выглядит как разрушенный ремонтный шов. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M049",
+      "task_sha256": "8e046204b7f413bb107f0e4ab9426521e3f4798c90bd77ed5d31e40e8e558e1b"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 900,
+            "image_rotation": 0,
+            "value": {
+              "x": 33,
+              "y": 41,
+              "width": 45,
+              "height": 40,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Вода закрывает дно и границы разрушения; отдельные лужи не размечены без видимой потери материала. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M050",
+      "task_sha256": "82cccc4edc0552aa0db15611113bd598c580fa265907baca3fc3d871a9033a2a"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 19,
+              "y": 86,
+              "width": 24,
+              "height": 14,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1462,
+            "image_rotation": 0,
+            "value": {
+              "x": 20,
+              "y": 53,
+              "width": 39,
+              "height": 47,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Нижняя выбоина обрезана; сеть примыкает к ней и её края слабо различимы. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M051",
+      "task_sha256": "9db3018331a88462d3d1f69eac46470a4b632864b6bcd40ec6aceab81a128aca"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Поперечная линия похожа на технологический шов; видимое разрушение малоконтрастно, поэтому рамка не поставлена. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M052",
+      "task_sha256": "90b368d1567e5d3f37ce89d5fd8cd9fc2a0516049f3f53acb1db1c37da10d92a"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 712,
+            "original_height": 485,
+            "image_rotation": 0,
+            "value": {
+              "x": 28,
+              "y": 54,
+              "width": 46,
+              "height": 25,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 712,
+            "original_height": 485,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 63,
+              "width": 66,
+              "height": 37,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Сетка примыкает к выбоине, её нижняя граница обрезана. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M053",
+      "task_sha256": "6897128d4aaa8206545e2d73c1f35c0deac5507abe0c02e67b610a2555acfcb4"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 39,
+              "width": 100,
+              "height": 23,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1200,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 65,
+              "width": 100,
+              "height": 35,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Длинные разрывы и сеть на разных сторонах линии; границу между ветвями и отдельными дефектами нужно уточнить. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M054",
+      "task_sha256": "c63ebfbbc2831c9a53b5af87fa2c2793f26c0b02d8c0a0f84d2fbf57965e1a5b"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1076,
+            "image_rotation": 0,
+            "value": {
+              "x": 51,
+              "y": 88,
+              "width": 12,
+              "height": 12,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1076,
+            "image_rotation": 0,
+            "value": {
+              "x": 75,
+              "y": 74,
+              "width": 9,
+              "height": 7,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box3",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1076,
+            "image_rotation": 0,
+            "value": {
+              "x": 88,
+              "y": 78,
+              "width": 6,
+              "height": 4,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Дальние тёмные участки и повреждение у нижнего края слабо различимы; границы выбоин приблизительны. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M055",
+      "task_sha256": "3a85da5b6e548af66a228c87a41b78da99686f8945687cb3ddb184300f841714"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 960,
+            "original_height": 1280,
+            "image_rotation": 0,
+            "value": {
+              "x": 15,
+              "y": 7,
+              "width": 73,
+              "height": 71,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Вода и крошка маскируют отдельные границы разрушения. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M056",
+      "task_sha256": "e9ebc9f2c2ffb44dbe4415f6c10ee3fb6bc5d59a51a1d11cb95be65dd7a779f1"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Дорожное покрытие далеко и показано узкой полосой; мелкие дефекты нельзя уверенно оценить. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M057",
+      "task_sha256": "1f50f8d3d15100f8cdcd90f0ef680a995e0cbc7cebf81587cfbc529eccba2c82"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1416,
+            "image_rotation": 0,
+            "value": {
+              "x": 24,
+              "y": 17,
+              "width": 58,
+              "height": 83,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1416,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 31,
+              "width": 45,
+              "height": 69,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Разветвления рядом с правой сеткой и отдельная тонкая трещина частично сливаются с текстурой. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M058",
+      "task_sha256": "6db368db2bd16980764bffb49da2c4874538ce023ef7e9504cf5ae4613fae6e5"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 29,
+              "y": 68,
+              "width": 41,
+              "height": 13,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1041,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 38,
+              "width": 82,
+              "height": 40,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Разрушение у разметки может включать старую заплату; сетка вокруг частично видима. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M059",
+      "task_sha256": "32e00fb25c66f3d89a7b6086f470aa2a67204d32457d36cb8344a006684dd536"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 47,
+              "y": 40,
+              "width": 23,
+              "height": 12,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Покрытие размыто: неясно, является ли тёмный участок углублением или заплатой. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M060",
+      "task_sha256": "aca4ed78a7c334789d99ce2dc0d5de169db030a5e46be29f84e33a04241a3045"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1490,
+            "image_rotation": 0,
+            "value": {
+              "x": 27,
+              "y": 21,
+              "width": 43,
+              "height": 74,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Разветвлённый продольный дефект с редкими ячейками: D00 или D20 спорно. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M061",
+      "task_sha256": "93f217ff0c1f6336fa223ccae4876fd6f681c86a3d7ece4be5076a0365dc6013"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Низкое разрешение и работы на обочине мешают различить трещины и ремонт на покрытии. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M062",
+      "task_sha256": "84780a9dba3210a5f7d8019e09238e44171ab6e506481a5d565d7945ad352c52"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1200,
+            "original_height": 1444,
+            "image_rotation": 0,
+            "value": {
+              "x": 15,
+              "y": 35,
+              "width": 55,
+              "height": 56,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Тонкие линии и отдельные ветви на фоне текстуры плохо отделяются друг от друга. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M063",
+      "task_sha256": "c94f15ef6f60ccbd85b0a1e552d67488cd936022dbfdc85c021c6e37792063f4"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 3024,
+            "original_height": 4032,
+            "image_rotation": 0,
+            "value": {
+              "x": 23,
+              "y": 74,
+              "width": 42,
+              "height": 24,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D20"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Вода и отражения скрывают покрытие и возможные выбоины; сеть размечена только по видимой части. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M064",
+      "task_sha256": "dea2d5d4b52ac918018b8372266e53b631e554b26e6fdb172643297d0ec91e42"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1048,
+            "image_rotation": 0,
+            "value": {
+              "x": 0,
+              "y": 49,
+              "width": 100,
+              "height": 17,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "box2",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1048,
+            "image_rotation": 0,
+            "value": {
+              "x": 17,
+              "y": 74,
+              "width": 83,
+              "height": 17,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D00"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Продольные трещины ветвятся; локальное разрушение слева внизу может быть отдельной выбоиной. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "IMG-M066",
+      "task_sha256": "ffe5ac2386273575fcc461a23435dfe93c6a790388c9cbb45a2e6bc895bbd41d"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "box1",
+            "from_name": "damage",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "original_width": 1600,
+            "original_height": 1083,
+            "image_rotation": 0,
+            "value": {
+              "x": 11,
+              "y": 79,
+              "width": 35,
+              "height": 21,
+              "rotation": 0,
+              "rectanglelabels": [
+                "D40"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Снимок смазан, разрушенный участок обрезан; граница выбоины приблизительная. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

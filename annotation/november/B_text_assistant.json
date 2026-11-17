@@ -1,0 +1,2762 @@
+[
+  {
+    "data": {
+      "item_id": "TXT-M001",
+      "task_sha256": "344e57ac7f8932d4edc681f19735b6b9070849d5843c609f9d4724804f5b2b05"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M004",
+      "task_sha256": "1dbe516dff6750ec1574e4c1f756e1ea92c9643cfd74a0bb036cc411968972e5"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M006",
+      "task_sha256": "19bed45f337bc5c738e3b4e325399590c467cf31f8f5d159ecc5b8c5cf7fd8bc"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Ссылка на видео без объяснения связи с текущим клипом; рекламное намерение неясно. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M007",
+      "task_sha256": "ebd22a1fa4706583e4a9a13062158fd56e7aa27a56e04a912cae9d5162d5e1cb"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M009",
+      "task_sha256": "14360b9bec8e3eeef8d176892d8e102b32727c44afd0ca009e817a754e28f1ef"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M012",
+      "task_sha256": "9921b47153331044cf2af71e324b0753df1ec5356f6aef0f1a54fb7f7d32f2bb"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Ссылка на видео без объяснения связи с текущим клипом; рекламное намерение неясно. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M022",
+      "task_sha256": "9027487fc50053bdb25b98233a9f2c732aaf358061cb2d2ec587a94f6b392b63"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M024",
+      "task_sha256": "ad34cbe24336965bbc55d98b8272cef3fea69ba2d4c131a7448035fef295c97a"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M027",
+      "task_sha256": "727b9929bc1b846f71796110b233c9f0f2ae47ad4b0176ced895a020058d51ab"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M030",
+      "task_sha256": "a1d50951f90a3b9141ddaec896a8205cc37fc354ffee12a8085145302828c129"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Только название другого клипа и ссылка; неизвестно, является ли публикация продвижением. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M031",
+      "task_sha256": "a21302f46daad843dc0e486e2ab601a87a6273ec3517d49659c488be117530d1"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M032",
+      "task_sha256": "3942c0e958c1197fb3872a4778328bc43a24ae7d08ebe80ce3cc77ebfe648dea"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M037",
+      "task_sha256": "97d5eee7d28f01dc172ccc7e3581a19767624f62d383a5be91d196ae43285ea4"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M039",
+      "task_sha256": "3ea38aa998c5932775ae8effef864436779ee8db4854fcef1726cc71dd063a7f"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M042",
+      "task_sha256": "a00684f95e39e3994f9365822d8be8b20f6ff6df2dd1e6bee284ca6d6d2ce8f0"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M043",
+      "task_sha256": "81ca97eac1894e83d146d729bf17ed8a02335babbec722cbe446c9aa7c4ed4b1"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Похвала песне сопровождается ссылкой и неясной пометкой T41; назначение ссылки неизвестно. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M047",
+      "task_sha256": "399ba4712ef0a5557d69e20cb4ba3a879cc546af1b6f3eabe7ade2fdebc6b809"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M048",
+      "task_sha256": "64463e3748538bdbb2eb40996f7fd3e52eef74e18c6519f3460854a1794e0dee"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M050",
+      "task_sha256": "9b1b13d31041f6c33ac4e1726992b286941e5f35a8f359e527db9073f23dbdd0"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Похвала сопровождается ссылкой на Shorts; связь с обсуждаемым видео неясна. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M052",
+      "task_sha256": "cb40326be9a8b20d77525f452ec698f5c48d85a9787555a10739b646cb5c6bf3"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M055",
+      "task_sha256": "56913fbaefc6917bf194dabc37262fcafb357313a149b8f7137bee76094fd836"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "spam"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M058",
+      "task_sha256": "cec5a6f74df04e9e51e16cc9c118014d05c678bbfb4d2a0e4c0f08ac8da3513e"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M064",
+      "task_sha256": "1f03de7c285d797f5d6c8f665c664666961f0c90b499407374a819cea269a090"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "spam"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M067",
+      "task_sha256": "5bd32d6222d1804a8da65ecad7c5c56a8722c4bd733dba9e485459a6046ace7a"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M073",
+      "task_sha256": "35b58ba8be0575bca9fbd171006d87ef2e60527e2a129f6b65399dece4923d04"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M075",
+      "task_sha256": "8cf7fef2c635c55f8afd2f136477faaa15fb53338af01db13012f7d889b914c4"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "spam"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Ссылка ведёт на страницу канала и содержит параметр подтверждения подписки; намерение автора не выражено словами. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M080",
+      "task_sha256": "3caa4df25ea5d7cb6cab71cac612ea05d4e432c9b2cc880316b95ba622e945dd"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M086",
+      "task_sha256": "a84f5010ae5b25759c7aec2d13d0c5512db57a9523f4beb6bcb414abbc08acfc"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M087",
+      "task_sha256": "a059b0fbb0104a2bc292282b3956296d33a2a5fcd563100ac8a530b729353c66"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M089",
+      "task_sha256": "b337631ec7fe76f28e6365da9edaef8bc4ad4b2a6b1c6159d1e5b188babc9408"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "spam"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M092",
+      "task_sha256": "bde17d06b2236a1f0727c5cd1ef451bbe5d82e208bdfe5e788a030a5a9615c57"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M097",
+      "task_sha256": "c2d306a707b1739db9bcf16f85aca2b67d5ac5b34009d70833dd64139425c062"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Упоминание участия в розыгрыше без явного призыва: контекст отсутствует. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M100",
+      "task_sha256": "b0496e405b74bba6d79cb7eb0d533d6325befd7da23b3d2c3233dd3897dfed7e"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M103",
+      "task_sha256": "8a0d0ca890f5f20ee54ab7340eadaa6fe7b8347dd7c5d0a35fe9af8151c86b67"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M105",
+      "task_sha256": "aeea347aac76f5624a80bc98c956f75760295e81318188b8c5223fd1509f922d"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "spam"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M108",
+      "task_sha256": "d1d567263a67668c0e83ab66cf7d3d32c780ecba73b7ca2c648057b11916f321"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M113",
+      "task_sha256": "cbf34b7c1e665b7f4ff5c1b737fb193c028510885f2b7f5546c096f16b7d9503"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Название песни и ссылка без пояснения связи с обсуждаемым клипом. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M115",
+      "task_sha256": "19732a22782f0b7bb5164e1184f8e20764db5ee536bef639512d7b12ad970a1b"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M118",
+      "task_sha256": "4de649bc6bd9a84bd094747223509e4197b8a31f33c3c299398cf56a70532cbe"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M119",
+      "task_sha256": "8c17ed70138dfd052e43d142d874e9a58d516022d263818626eb80bddf2ff5ab"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M123",
+      "task_sha256": "0e8d228c8e5ec44aa91edc446734b549e93fef5623a5c1528f86d4a9810696ba"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M126",
+      "task_sha256": "2dbc64dbae2c43bc6d1c53c8de19e20953b7cbde23e76572559a0ac20100bc08"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M131",
+      "task_sha256": "d7746a83018e885bc2fe077c5c641edebcdb1c9578fd82943f5847bf6bb952fc"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "spam"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M132",
+      "task_sha256": "c2748f32b78c23e800cf21fbe35ccb1db20848dfd4c936728ebd233bf1f08fb5"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M133",
+      "task_sha256": "24e5f09e4e187cf6770d9ac34227e0ff28590cb219858bb1f7a59dd532e82320"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M142",
+      "task_sha256": "ff5a91cd8c34332fc30e0726a01bafd60141c380c09239ba9c83ef7ea5542a7e"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M146",
+      "task_sha256": "da4368b54de429bccf9e49e2cbda2eb75f23626f793f6b247eba9aa33e67a0b5"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M147",
+      "task_sha256": "96e2738bf8723a8eb9157559df8035c254d8990c91661d31fc35b87629a9dc0a"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M150",
+      "task_sha256": "8e6d858b4901c64849cc820f3df9f0d54057c0accaf64809c077807a15a5c2c0"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M151",
+      "task_sha256": "0aa0457abb85ae05bff07aac232061647b2a7fd858daad8026afa2be9aa43fde"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M155",
+      "task_sha256": "4ba416ac763af561f6daae457098d2c4f3b4527d4caa1927de4696f518d063cd"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Фраза буквально просит не смотреть канал; возможна ирония или обратная реклама. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M159",
+      "task_sha256": "c7054fe2573999928b648c3b6f328a39667a378513568495d3957976a3c50ecd"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M160",
+      "task_sha256": "f1fa04915da41f1af836e665a6a4316221ac66bbb1dabef8bc9a9a5eb73dc8b6"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M161",
+      "task_sha256": "091547b60baaba39191d4962f470c11631395bd55d570843b5c52c434c59921e"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Призыв повторять фразу в комментариях; сторонняя выгода или продвижение неочевидны. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M162",
+      "task_sha256": "4d984c46afe3170f090edd3935dbefb0b72d2d2ac94c702d7223fd90d99bf0a9"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M166",
+      "task_sha256": "4e98468a15d6065ec28fdf8c70bf8cc191d72fe7973e3f4ade3d531b827d8376"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M169",
+      "task_sha256": "ec3002d08221c3db515106b1fb5460e08f9e37da27144dabf1c4869595f31c88"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M170",
+      "task_sha256": "da11d41caf0957e67eb25e05d4929541793903f75c83a3141f415b1940ca087c"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Только упоминание розыгрыша без предложения или призыва; контекст отсутствует. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M172",
+      "task_sha256": "26437308c82509acd6cd2a43668b839fbbb282858c4b8b5701d463e5ee0f175a"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "discuss"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Жалоба на отсутствие подписчиков и слушателей может быть косвенным самопродвижением, но явной просьбы нет. Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "item_id": "TXT-M176",
+      "task_sha256": "bfaf946326aa3a1da164bb0ae9e8df4e9180ca60e8d663e654e6861f5b23aa56"
+    },
+    "predictions": [
+      {
+        "model_version": "Разметка ассистента B",
+        "result": [
+          {
+            "id": "label",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "ham"
+              ]
+            }
+          },
+          {
+            "id": "review",
+            "from_name": "review",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "accept"
+              ]
+            }
+          },
+          {
+            "id": "reason",
+            "from_name": "reason",
+            "to_name": "text",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Время ручной работы не измерялось; разметка выполнена ассистентом."
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
