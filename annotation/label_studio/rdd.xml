@@ -1,0 +1,28 @@
+<View>
+  <Header value="Повреждения дороги. Codebook 0.1"/>
+  <Header value="$item_id"/>
+  <View style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start;">
+  <View style="width: 640px; max-width: 100%;">
+  <Image name="image" value="$image" zoom="true" zoomControl="true" maxWidth="640px"/>
+  </View>
+  <View style="width: 340px; max-width: 100%;">
+  <RectangleLabels name="damage" toName="image" canRotate="false">
+    <Label value="D00" background="#2563eb"/>
+    <Label value="D10" background="#16a34a"/>
+    <Label value="D20" background="#d97706"/>
+    <Label value="D40" background="#dc2626"/>
+  </RectangleLabels>
+  <Header value="D00 — продольная, D10 — поперечная, D20 — сетка, D40 — выбоина"/>
+  <Choices name="review" toName="image" choice="single" required="true">
+    <Choice value="accept"/>
+    <Choice value="no_damage"/>
+    <Choice value="discuss"/>
+    <Choice value="exclude"/>
+  </Choices>
+  <Header value="Активное время в секундах: измерить секундомером"/>
+  <Number name="time_seconds" toName="image" min="1" step="1" required="true"/>
+  <Header value="Пояснение: обязательно для discuss и exclude"/>
+  <TextArea name="reason" toName="image" rows="3"/>
+  </View>
+  </View>
+</View>

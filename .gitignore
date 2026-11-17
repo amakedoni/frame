@@ -23,3 +23,11 @@ documents/journal_snapshot_*.xlsx
 !.env.example
 token*.json
 credentials*.json
+
+# Annotation media, original answers and local tool state stay outside public Git.
+annotation/pilot/local/
+annotation/pilot/private_reference/
+annotation/exports/
+data/manual/local/
+.annotation-venv/
+.annotation-state/

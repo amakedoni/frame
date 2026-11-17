@@ -1,0 +1,3 @@
+# Separate environment: does not change dependencies used for the initial EDA.
+# Release and Python >=3.10 compatibility checked against PyPI on 2026-10-22.
+label-studio==1.23.2

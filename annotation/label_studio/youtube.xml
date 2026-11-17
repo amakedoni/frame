@@ -1,0 +1,20 @@
+<View>
+  <Header value="YouTube Spam. Codebook 0.1"/>
+  <Header value="$item_id"/>
+  <Text name="text" value="$text"/>
+  <Header value="Класс комментария"/>
+  <Choices name="label" toName="text" choice="single">
+    <Choice value="ham"/>
+    <Choice value="spam"/>
+  </Choices>
+  <Header value="Состояние проверки"/>
+  <Choices name="review" toName="text" choice="single" required="true">
+    <Choice value="accept"/>
+    <Choice value="discuss"/>
+    <Choice value="exclude"/>
+  </Choices>
+  <Header value="Активное время в секундах: измерить секундомером"/>
+  <Number name="time_seconds" toName="text" min="1" step="1" required="true"/>
+  <Header value="Пояснение: обязательно для discuss и exclude"/>
+  <TextArea name="reason" toName="text" rows="3"/>
+</View>
