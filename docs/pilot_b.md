@@ -2,7 +2,7 @@
 
 Распакуй архив `pilot-B-60x60.zip` в отдельную папку. В нём 60 комментариев и 60 дорожных фотографий с теми же `item_id`, что у Александра. Файлы `text_tasks.json` и `road_tasks.json` содержат задания. Правила разметки лежат в `annotation_codebook.md`, сведения об источниках — в файлах `*_manifest.json`.
 
-Для участия с Codex открой в нём распакованную папку и вставь текст из `PROMPT.txt`. Сохрани `B_text_assistant.json` и `B_road_assistant.json` и передай их Александру. По уточнению условий разрешена разметка с Codex, если у каждого участника свой проход. Сохрани свою версию до просмотра разметки Александра.
+Для разметки с ассистентом открой распакованную папку и используй `PROMPT.txt` из архива. Сохрани `B_text_assistant.json` и `B_road_assistant.json` и передай их Александру. Сохрани свою версию до просмотра его ответов.
 
 ## Как разметить самостоятельно в Label Studio
 
@@ -32,7 +32,7 @@ python compare_november_exports.py text A_text.json B_text.json text_tasks.json
 python compare_november_exports.py road A_road.json B_road.json road_tasks.json
 ```
 
-Для сравнения результатов с Codex используй флаг `--assistant`. После сохранения обеих версий можно взять файлы A из `annotation/november` в репозитории. Сверка использует контрольные суммы заданий для сопоставления опубликованных меток с архивом.
+Для сравнения результатов разметки ассистентом используй флаг `--assistant`. После сохранения обеих версий можно взять файлы A из `annotation/november` в репозитории. Сверка использует контрольные суммы заданий для сопоставления опубликованных меток с архивом.
 
 ```powershell
 python compare_november_exports.py text A_text_assistant.json B_text_assistant.json text_tasks.json --assistant
